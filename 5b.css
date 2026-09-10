@@ -80,22 +80,23 @@ button{font:inherit;color:inherit}
 .swap-hint.bad{border-color:var(--red);color:var(--red)}
 @keyframes swapPulse{0%,100%{transform:translateX(-50%) scale(1)}50%{transform:translateX(-50%) scale(1.04)}}
 @media (width<=760px),(pointer:coarse){
-.topbar{height:58px}.live-pill{display:none}
-.menu-card{padding:22px 20px 24px;top:50%;left:50%;transform:translate(-50%,-50%);max-height:calc(100dvh - 40px);overflow:auto}
-.menu-card h1{font-size:clamp(30px,10vw,48px)}
-.intro{font-size:11px;margin:12px 0 16px}
-.time-grid{grid-template-columns:repeat(2,1fr)}
-.car-grid{grid-template-columns:repeat(2,1fr)}
-.race-info{top:68px;left:12px;right:120px}
-.race-hud{transform-origin:100% 100%;bottom:132px;right:14px;transform:scale(.72)}
-.clock{top:68px;right:14px;padding:8px 10px;font-size:10px}
-.swap-hint{bottom:180px;font-size:9px;padding:8px 12px}
-.touch-controls{align-items:flex-end;gap:10px;display:flex;bottom:20px}
-.p1-controls{left:16px}
-.p1-controls button{border-radius:50%;width:64px;height:64px;font-size:22px}
-.pedals{right:16px}
-.pedals button{border-radius:30px;width:58px;height:72px;font:900 9px/1 monospace}
-.pedals .gas-button{background:#38f7c02e;border-color:#38f7c099;height:90px}
-.pedals .brake-button{background:#ff3b302e;border-color:#ff3b3099}
-.pedals .nitro-button{color:#061817;background:var(--mint);width:45px;height:45px}
-}
+  .topbar{height:58px}
+  .live-pill{display:none}
+  .menu-card{padding:22px 20px 24px;top:50%;left:50%;transform:translate(-50%,-50%);max-height:calc(100dvh - 40px);overflow:auto}
+  .menu-card h1{font-size:clamp(30px,10vw,48px)}
+  .intro{font-size:11px;margin:12px 0 16px}
+  .time-grid{grid-template-columns:repeat(2,1fr)}
+  .car-grid{grid-template-columns:repeat(2,1fr)}
+  .race-info{top:68px;left:12px;right:120px}
+  .race-hud{transform-origin:100% 100%;bottom:132px;right:14px;transform:scale(.72)}
+  .clock{top:68px;right:14px;padding:8px 10px;font-size:10px}
+  .swap-hint{bottom:180px;font-size:9px;padding:8px 12px}
+  .touch-controls{align-items:flex-end;gap:10px;display:flex;bottom:20px}
+  .p1-controls{left:16px}
+  .p1-controls button{border-radius:50%;width:64px;height:64px;font-size:22px}
+  .pedals{right:16px}
+  .pedals button{border-radius:30px;width:58px;height:72px;font:900 9px/1 monospace}
+  .pedals .gas-button{background:#38f7c02e;border-color:#38f7c099;height:90px}
+  .pedals .brake-button{background:#ff3b302e;border-color:#ff3b3099}
+  .pedals .nitro-button{color:#061817;background:var(--mint);width:45px;height:45px}
+           }
